@@ -55,7 +55,7 @@ Parameters:
 
   KubectlRoleName:
     Type: String
-    Default: Adminnew
+    Default: myEKSClusterRole
     Description: IAM role used by kubectl to interact with EKS cluster
     MinLength: 3
     MaxLength: 100
